@@ -1,3 +1,7 @@
-./src/practicePackage/Table
-./src/Main
-./out
+src/practicePackage/Table.java
+
+src/Main.java
+
+out/
+
+.idea/
