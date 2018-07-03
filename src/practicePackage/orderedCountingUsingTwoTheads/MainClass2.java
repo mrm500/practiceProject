@@ -38,9 +38,7 @@ public class MainClass2 {
                            lock.notify();
                            if(counter > number)
                                break;
-                       } catch (InterruptedException e) {
-                           e.printStackTrace();
-                       }
+                       } catch (InterruptedException e) { e.printStackTrace(); }
                    }
                }
             }
