@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class CanBeAPalindrome {
     public static void main(String [] args){
+        System.out.println("Enter the string to check : ");
         String string = (new Scanner(System.in)).next();
         System.out.println("Can String " + string + " be a palindrome ?\n" + canBeAPalindrome(string));
     }
